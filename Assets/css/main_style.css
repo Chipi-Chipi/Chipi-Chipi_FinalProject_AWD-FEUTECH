@@ -1,0 +1,110 @@
+
+
+/* ---------- PRELOADER ----------- */
+
+#preloader{
+    background: #fdfdfd url(/Assets/img/loader.gif) no-repeat center center;
+    background-size: 30%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;  
+    align-items: center;
+}
+
+
+
+
+
+
+/* ---------- LANDING PAGE ----------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container .container2{
+    width: 100%;
+    height: 100%;
+    font-family: "Arial";
+    text-transform: uppercase;
+    color: #187548;
+}
+
+
+nav, footer{
+    position: absolute;
+    padding: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    bottom: 0;
+}
+
+nav > div, footer > div{
+    padding: 2em;
+    cursor: pointer;
+}
+
+.header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+}
+
+p{
+    text-align: center;
+    font-size: 12px;
+}
+
+.logo img{
+    width: 150px;
+    height: 150px;
+    margin: 80px;
+    margin-top: 150px;
+    margin-left: 45%;
+}
+
+.container2 .login_btn {
+    background: #187548;
+    padding: 8px 20px;
+    font-size: 20px;
+    margin-top: 35px;
+    border-color: #187548;
+    text-decoration: none;
+}
+
+.container2 .signup_btn {
+    background-color: #fff;
+    padding: 8px 15px;
+    font-size: 20px;
+    margin-top: 40px;
+    border-color: #187548;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+.placeholder {
+    text-align: center;
+    font-family: 'Arial'; /* Add this line */
+    font-size: 80px;
+    font-weight: bold;
+    color: #187548; /* Add the # symbol before the color code */
+    line-height: 2.25;
+    
+}
+
+
